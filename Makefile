@@ -17,7 +17,7 @@ libmyBank.a: $(OBJECTS_LIB)
 %.o: %.c $(DEPS)
 	$(CC) -fPIC $(FLAG) -c -o $@ $< $(CFLAGS)
 
-.PHONY:clean all
+.PHONY:clean all312282MY60
 
 clean:
-	rm -f *.o *.a *.so exe
+	rm -f *.o *.a *.gch *.so exe
